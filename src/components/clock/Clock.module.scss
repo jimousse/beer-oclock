@@ -1,0 +1,18 @@
+.clock {
+  display: flex;
+  width: auto;
+  padding: 1rem;
+  background-color: black;
+  border-radius: .5rem;
+  box-shadow: .5rem 0 4rem rgba(0,0,0,.3);
+
+  @media only screen and (max-width: 50rem) {
+    transform: rotate(-90deg);
+  }; 
+
+  & > {
+    :not(:last-child) {
+      margin-right: 1rem;
+    }
+  }
+}

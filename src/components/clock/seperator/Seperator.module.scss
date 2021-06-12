@@ -1,0 +1,23 @@
+.seperator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .dot {
+    width: 1.6rem;
+    height: 1.6rem;
+    background-color: red;
+    border-radius: 50%;
+    animation: dotBlink 1s infinite;
+
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+@keyframes dotBlink {
+  0%   { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}

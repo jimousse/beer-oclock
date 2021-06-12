@@ -1,0 +1,35 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "am ."
+    "pm dot";
+  justify-items: center;
+  align-items: center;
+  color: #fff;
+  font-family: monospace;
+  font-size: 1.6rem;
+
+  .am {
+    grid-area: am;
+  }
+
+  .pm {
+    grid-area: pm;
+  }
+
+  .legend {
+    padding: .1rem;
+    text-transform: uppercase;
+  }
+
+  .dot {
+    grid-area: dot;
+    $dot-size: .9rem;
+    width: $dot-size;
+    height: $dot-size;
+    background-color: red;
+    border-radius: 50%;
+  }
+}
