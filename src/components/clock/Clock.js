@@ -6,12 +6,14 @@ import AmPmIndicator from './am-pm-indicator/AmPmIndicator';
 const Clock = props => {
   return (
     <div className={classes.clock}>
-      <AmPmIndicator />
-      <Digit signals="1111111" letter={"b"} />
-      <Digit signals="1101101" />
-      <Seperator />
-      <Digit signals="1101101" />
-      <Digit signals="1111110" letter={"r"} />
+      <div className={classes['rotating-div']}>
+        <AmPmIndicator />
+        <Digit signals="1111111" letter={"b"} />
+        <Digit signals="1101101" />
+        <Seperator />
+        <Digit signals="1101101" />
+        <Digit signals="1111110" letter={"r"} />
+      </div>
     </div>
   );
 };

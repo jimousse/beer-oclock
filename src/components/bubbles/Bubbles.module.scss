@@ -1,0 +1,58 @@
+.bubbles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  overflow: hidden;
+
+  .bubble-container {
+    display: inline;
+    z-index: 100;
+    position: absolute;
+    animation-duration: 20s;
+    animation-name: bubbleUp;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+  }
+
+  .bubble {
+    border-radius: 50%;
+    background-color: white;
+    opacity: .5;
+    position: inherit;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation-duration: 1s;
+    animation-name: bubbleSideMovement;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+  }
+}
+
+
+@keyframes bubbleUp {
+  from {
+    top: 100%;
+  }
+
+  to {
+    top: 0%
+  }
+}
+
+@keyframes bubbleSideMovement {
+  0% {
+    left: 0%
+  }
+
+  50% {
+    left: 100%
+  }
+
+  100% {
+    left: 0%
+  }
+}
