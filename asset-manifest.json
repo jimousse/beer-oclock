@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/beer-oclock/static/css/main.b0f4f505.chunk.css",
-    "main.js": "/beer-oclock/static/js/main.0d87faf5.chunk.js",
-    "main.js.map": "/beer-oclock/static/js/main.0d87faf5.chunk.js.map",
+    "main.css": "/beer-oclock/static/css/main.f61e04ae.chunk.css",
+    "main.js": "/beer-oclock/static/js/main.6931cbcb.chunk.js",
+    "main.js.map": "/beer-oclock/static/js/main.6931cbcb.chunk.js.map",
     "runtime-main.js": "/beer-oclock/static/js/runtime-main.0e9da257.js",
     "runtime-main.js.map": "/beer-oclock/static/js/runtime-main.0e9da257.js.map",
     "static/js/2.2cecae14.chunk.js": "/beer-oclock/static/js/2.2cecae14.chunk.js",
     "static/js/2.2cecae14.chunk.js.map": "/beer-oclock/static/js/2.2cecae14.chunk.js.map",
     "index.html": "/beer-oclock/index.html",
-    "static/css/main.b0f4f505.chunk.css.map": "/beer-oclock/static/css/main.b0f4f505.chunk.css.map",
+    "static/css/main.f61e04ae.chunk.css.map": "/beer-oclock/static/css/main.f61e04ae.chunk.css.map",
     "static/js/2.2cecae14.chunk.js.LICENSE.txt": "/beer-oclock/static/js/2.2cecae14.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0e9da257.js",
     "static/js/2.2cecae14.chunk.js",
-    "static/css/main.b0f4f505.chunk.css",
-    "static/js/main.0d87faf5.chunk.js"
+    "static/css/main.f61e04ae.chunk.css",
+    "static/js/main.6931cbcb.chunk.js"
   ]
 }
