@@ -1,6 +1,6 @@
 import classes from './Bubbles.module.scss';
 
-const RADIUSES = [6, 8, 10, 12];
+const RADIUSES = [6, 8, 10, 12, 17, 20];
 const NUM_OF_BUBBLES = 150;
 
 const randomRadius = () => {
