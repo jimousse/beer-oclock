@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/beer-oclock/static/css/main.9f41b742.chunk.css",
+    "main.css": "/beer-oclock/static/css/main.4c620817.chunk.css",
     "main.js": "/beer-oclock/static/js/main.5f76d600.chunk.js",
     "main.js.map": "/beer-oclock/static/js/main.5f76d600.chunk.js.map",
     "runtime-main.js": "/beer-oclock/static/js/runtime-main.0e9da257.js",
@@ -8,13 +8,13 @@
     "static/js/2.0b0ef004.chunk.js": "/beer-oclock/static/js/2.0b0ef004.chunk.js",
     "static/js/2.0b0ef004.chunk.js.map": "/beer-oclock/static/js/2.0b0ef004.chunk.js.map",
     "index.html": "/beer-oclock/index.html",
-    "static/css/main.9f41b742.chunk.css.map": "/beer-oclock/static/css/main.9f41b742.chunk.css.map",
+    "static/css/main.4c620817.chunk.css.map": "/beer-oclock/static/css/main.4c620817.chunk.css.map",
     "static/js/2.0b0ef004.chunk.js.LICENSE.txt": "/beer-oclock/static/js/2.0b0ef004.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0e9da257.js",
     "static/js/2.0b0ef004.chunk.js",
-    "static/css/main.9f41b742.chunk.css",
+    "static/css/main.4c620817.chunk.css",
     "static/js/main.5f76d600.chunk.js"
   ]
 }
