@@ -1,10 +1,6 @@
 .clock {
   position:absolute;
   overflow: hidden;
-      
-  @media only screen and (max-width: 50rem) {
-    transform: rotate(-90deg);
-  };
 
   .rotating-div {
     display: flex;
